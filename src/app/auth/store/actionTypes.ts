@@ -1,5 +1,5 @@
-export enum ActionTyps {
-  REGISTER_REQUEST = '[Auth] Register Request',
-  REGISTER_SUCCESS = '[Auth] Register Success',
-  REGISTER_FAILED = '[Auth] Register Failed',
+export enum ActionTypes {
+  REGISTER = '[Auth] Register',
+  REGISTER_SUCCESS = '[Auth] Register success',
+  REGISTER_FAILURE = '[Auth] Register failure'
 }
